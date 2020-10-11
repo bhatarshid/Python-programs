@@ -30,4 +30,5 @@ def pretopost(Q,operatorList):
             P.append(i)
     return P
 
-print(pretopost(['A','+','(','B','*','C','-','(','D','/','E','^','F',')','*','G',')','*','H'],operatorList))
+Q = ['A','+','(','B','*','C','-','(','D','/','E','^','F',')','*','G',')','*','H']
+P = pretopost(Q,operatorList)
